@@ -17,25 +17,26 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Products</a>
+                    <a class="nav-link" href="product.html">Products</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="contactUs.html">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <header class="hero" style="background-image: url('path/to/your/banner.jpg'); height: 400px; background-size: cover; color: white;">
-        <div class="container text-center" style="padding-top: 150px;">
-            <h1>Welcome to Cookie Shop!</h1>
-            <p>Your one-stop shop for delicious cookies.</p>
+    <header class="hero" style="background-image: url('https://images.unsplash.com/photo-1558961363-fa8fdf82db35?auto=format&fit=crop&w=1920&q=80'); height: 400px; background-size: cover; background-position: center; position: relative;">
+        <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0,0,0,0.5);"></div>
+        <div class="container text-center" style="padding-top: 150px; position: relative; z-index: 1;">
+            <h1 class="display-4 font-weight-bold">Welcome to Cookie Shop!</h1>
+            <p class="lead">Your one-stop shop for delicious cookies.</p>
         </div>
     </header>
 
@@ -47,17 +48,36 @@
     <section class="container mt-5">
         <h2>Our Cookies</h2>
         <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="path/to/cookie-image.jpg" class="card-img-top" alt="Cookie">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Cookie" style="height: 200px; object-fit: cover;">
                     <div class="card-body">
                         <h5 class="card-title">Chocolate Chip Cookie</h5>
                         <p class="card-text">A classic favorite, loaded with chocolate chips.</p>
-                        <a href="#" class="btn btn-primary">Order Now</a>
+                        <a href="product.html" class="btn btn-primary">Order Now</a>
                     </div>
                 </div>
             </div>
-            <!-- Additional cards can be added here -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1619149651177-b09092806f1a?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Cookie" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">Double Chocolate</h5>
+                        <p class="card-text">Rich chocolate cookies for the ultimate chocolate lover.</p>
+                        <a href="product.html" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1635342219731-4ae2bf39e1e9?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Cookie" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">White Chocolate Macadamia</h5>
+                        <p class="card-text">Buttery cookies with premium white chocolate and nuts.</p>
+                        <a href="product.html" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
